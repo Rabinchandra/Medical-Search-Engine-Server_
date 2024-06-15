@@ -1,0 +1,50 @@
+# Ignore build output and user-specific files in the server project
+.vs/
+/Server_/[Bb]in/
+/Server_/[Oo]bj/
+
+# Rider project files
+/Server_/.idea/
+
+# User-specific files
+/Server_/*.rsuser
+/Server_/*.suo
+/Server_/*.user
+/Server_/*.userosscache
+/Server_/*.sln.docstates
+
+# Auto-generated files (backup)
+/Server_/_ReSharper*/
+/Server_/*.[Cc]ache
+/Server_/[Rr]e[Ss]harper*
+
+# Log files
+/Server_/*.log
+
+# NuGet Packages
+/Server_/*.nupkg
+# The packages folder can be ignored because of Package Restore
+/Server_/**/packages/*
+# except build/, which is used as an MSBuild target.
+!/Server_/**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!/Server_/**/packages/repositories.config
+
+# Windows image file caches
+/Server_/Thumbs.db
+/Server_/ehthumbs.db
+
+# Folder config file
+/Server_/Desktop.ini
+
+# Recycle Bin used on file shares
+/Server_/$RECYCLE.BIN/
+
+# VS Code directories
+/Server_/.vscode/
+/Server_/.history/
+
+# Others
+/Server_/*.DS_Store
+/Server_/*.vscode
+/Server_/*.tmp
